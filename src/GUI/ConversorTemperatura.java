@@ -123,14 +123,10 @@ public class ConversorTemperatura extends javax.swing.JFrame{
         
         int opciones =JOptionPane.showConfirmDialog(null, "¿Desea Continuar?");
         
-        if (opciones == 1) {
+        if (opciones == 1 || opciones == 2) {
          
             JOptionPane.showMessageDialog(null,"Programa  Finalizado"); 
             this.dispose();
-        } 
-        else if (opciones == 2){
-            JOptionPane.showMessageDialog(null, "Programa  Finalizado");
-            this.dispose();              
         } 
     }//GEN-LAST:event_aceptarActionPerformed
 
