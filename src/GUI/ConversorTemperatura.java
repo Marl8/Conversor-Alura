@@ -110,15 +110,21 @@ public class ConversorTemperatura extends javax.swing.JFrame{
          
         Temperatura temperatura = new Temperatura();
         
-        // Captura la seleccion del ComboBox
+         // Captura la seleccion del ComboBox
         String tipo = (String) jComboBox1.getSelectedItem();
-        //Captura el valor ingresado y lo castea a un tipo double.
-        Double valor = Double.valueOf(ingreseValor.getText());
-          
-        double resultado = temperatura.calcularTemperatura(valor, tipo);
         
-        JOptionPane.showMessageDialog(null, "La temperatura correspondiente es: " + resultado + " grados");
-        
+        try {
+            //Captura el valor ingresado y lo castea a un tipo double.
+            if (ingreseValor.getText() != null) {
+            Double valor = Double.valueOf(ingreseValor.getText());
+            double resultado = temperatura.calcularTemperatura(valor, tipo);
+            
+            JOptionPane.showMessageDialog(null, "La temperatura correspondiente es: " + resultado + " grados");
+            }
+        } catch (Exception e) {
+            JOptionPane.showInternalMessageDialog(null, "Error no se ha podido realizar la operación");
+        }
+       
         //// El showConfirmDialog crea un int con 3 opciones (0 -> Si, 1 -> No, 2 -> cancelar)
         
         int opciones =JOptionPane.showConfirmDialog(null, "¿Desea Continuar?");

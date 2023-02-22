@@ -111,13 +111,23 @@ public class ConversorDivisas extends javax.swing.JFrame {
        
         Divisas divisas = new Divisas();
         
+         // Captura la seleccion del ComboBox
         String tipo = (String) jComboBox1.getSelectedItem();
-        Double valor = Double.valueOf(ingreseValor.getText());
-          
-        double resultado = divisas.calcularValor(valor, tipo);
         
-        JOptionPane.showMessageDialog(null, "El valor correspondiente es: $" + resultado);
+        try {
+            
+            //Captura el valor ingresado y lo castea a un tipo double.
+            if (ingreseValor.getText() != null) {
+                
+                Double valor = Double.valueOf(ingreseValor.getText());
+                double resultado = divisas.calcularValor(valor, tipo);
         
+                JOptionPane.showMessageDialog(null, "El valor correspondiente es: $" + resultado);
+            }
+        } catch (Exception e) {
+               JOptionPane.showInternalMessageDialog(null, "Error no se ha podido realizar la operación");
+        }   
+       
         int opciones =JOptionPane.showConfirmDialog(null, "¿Desea Continuar?");
         
         if (opciones == 1 || opciones == 2) {
