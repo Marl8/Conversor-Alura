@@ -5,12 +5,14 @@ Proyecto Conversor de Divisas y Temperatura
 El proyecto se enmarca dentro de los Challenge programados para los cursos de BackEnd con Java impartidos por Alura Latam en el marco del programa One Oracle.
 El mismo fue realizado con Java Swing.
 
-![1](https://user-images.githubusercontent.com/116129705/220476015-b02f098f-e0fd-4741-adbc-17a77c84f32a.png)
-![2](https://user-images.githubusercontent.com/116129705/220476017-9d96baf7-d02d-490f-9866-3664964ec069.png)
-![3](https://user-images.githubusercontent.com/116129705/220476020-cace2f1c-3eec-4024-bcff-f57291db7aee.png)
-![4](https://user-images.githubusercontent.com/116129705/220476000-29391478-2a46-4da0-b99e-e08e080abc1a.png)
-![5](https://user-images.githubusercontent.com/116129705/220796081-7bd52c3e-7d4f-4037-ab87-993ed18758a0.png)
-![6](https://user-images.githubusercontent.com/116129705/220476005-b76bd3df-945d-46a8-8b64-b360098acd34.png)
-![7](https://user-images.githubusercontent.com/116129705/220476006-f04b15d5-a905-4ff4-b059-fab3d71fa573.png)
-![8](https://user-images.githubusercontent.com/116129705/220476009-763874e1-1f92-4bbb-875d-0721c20a2eed.png)
-![9](https://user-images.githubusercontent.com/116129705/220476013-5298cab6-0e41-46fd-b1c7-e9ae854c2d50.png)
+
+![1](https://user-images.githubusercontent.com/116129705/220796525-f26c4bfa-5785-47e3-8532-3f93df80060b.png)
+![2](https://user-images.githubusercontent.com/116129705/220796529-e694e89b-78fe-4478-a23d-c9e90d216615.png)
+![3](https://user-images.githubusercontent.com/116129705/220796532-70b3a881-0e70-4e7a-8e8d-8ecf2372c52c.png)
+![4](https://user-images.githubusercontent.com/116129705/220796533-bf4b0067-251b-47ce-b3e3-0c0c807d269a.png)
+![5](https://user-images.githubusercontent.com/116129705/220796534-c93fb480-80be-4f65-8117-09670d29a2d6.png)
+![6](https://user-images.githubusercontent.com/116129705/220796536-b5b2a15b-393a-4d54-98f7-4827b5fb3146.png)
+![7](https://user-images.githubusercontent.com/116129705/220796538-6d23665f-ffb2-4dec-b997-c87449080ff0.png)
+![8](https://user-images.githubusercontent.com/116129705/220796540-dc951adf-8e4f-4a18-880d-3c980c915639.png)
+![9](https://user-images.githubusercontent.com/116129705/220796542-9df67db3-45e9-4d9c-84c7-e7a51eeab9f6.png)
+![10](https://user-images.githubusercontent.com/116129705/220796848-857f61c9-76f0-49c6-a8ae-2940f9e1601d.png)
