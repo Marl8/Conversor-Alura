@@ -1,6 +1,8 @@
 
 package Logica;
 
+import javax.swing.JOptionPane;
+
 
 public class Divisas {
     
@@ -8,6 +10,7 @@ public class Divisas {
     public double calcularValor (double valor, String tipo) {
     
         double resultado;
+        
         
         if(tipo.equalsIgnoreCase("Peso ARS - Dolar")) {
         
@@ -81,7 +84,10 @@ public class Divisas {
             
         } 
         else {
-            System.out.println("Error: no se ha podido realizar la operación");
+            JOptionPane.showMessageDialog(null,
+                "Error no se ha podido realizar la operación",
+                "Error",
+                JOptionPane.ERROR_MESSAGE);
             return 0;
         }
     }  

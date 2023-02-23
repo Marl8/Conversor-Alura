@@ -1,6 +1,8 @@
 
 package Logica;
 
+import javax.swing.JOptionPane;
+
 
 public class Temperatura {
     
@@ -22,7 +24,10 @@ public class Temperatura {
             return resultado;
         }
         else {
-             System.out.println("Error: no se ha podido realizar la operación");
+             JOptionPane.showMessageDialog(null,
+                "Error no se ha podido realizar la operación",
+                "Error",
+                JOptionPane.ERROR_MESSAGE);
              return 0;
         }
     }  
