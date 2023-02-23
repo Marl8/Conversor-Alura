@@ -122,10 +122,14 @@ public class ConversorDivisas extends javax.swing.JFrame {
                 Double valor = Double.valueOf(ingreseValor.getText());
                 double resultado = divisas.calcularValor(valor, tipo);
         
-                JOptionPane.showMessageDialog(null, "El valor correspondiente es: $" + resultado);
+                JOptionPane.showMessageDialog(null, 
+                        "El valor correspondiente es: $" + resultado);
             }
         } catch (Exception e) {
-               JOptionPane.showInternalMessageDialog(null, "Error no se ha podido realizar la operación");
+               JOptionPane.showMessageDialog(null,
+                "Error no se ha podido realizar la operación",
+                "Error",
+                JOptionPane.ERROR_MESSAGE);
         }   
        
         int opciones =JOptionPane.showConfirmDialog(null, "¿Desea Continuar?");

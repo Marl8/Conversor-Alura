@@ -119,10 +119,14 @@ public class ConversorTemperatura extends javax.swing.JFrame{
             Double valor = Double.valueOf(ingreseValor.getText());
             double resultado = temperatura.calcularTemperatura(valor, tipo);
             
-            JOptionPane.showMessageDialog(null, "La temperatura correspondiente es: " + resultado + " grados");
+            JOptionPane.showMessageDialog(null, 
+                    "La temperatura correspondiente es: " + resultado + " grados");
             }
         } catch (Exception e) {
-            JOptionPane.showInternalMessageDialog(null, "Error no se ha podido realizar la operación");
+            JOptionPane.showMessageDialog(null,
+                "Error no se ha podido realizar la operación",
+                "Error",
+                JOptionPane.ERROR_MESSAGE);
         }
        
         //// El showConfirmDialog crea un int con 3 opciones (0 -> Si, 1 -> No, 2 -> cancelar)
