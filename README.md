@@ -7,7 +7,7 @@ El mismo fue realizado con Java Swing.
 
 
 ![1](https://user-images.githubusercontent.com/116129705/220796525-f26c4bfa-5785-47e3-8532-3f93df80060b.png)
-![2](https://user-images.githubusercontent.com/116129705/220796529-e694e89b-78fe-4478-a23d-c9e90d216615.png)
+![2](https://user-images.githubusercontent.com/116129705/220797464-9f73a34d-10bb-4a67-bd0a-1afe051e1a1e.png)
 ![3](https://user-images.githubusercontent.com/116129705/220796532-70b3a881-0e70-4e7a-8e8d-8ecf2372c52c.png)
 ![4](https://user-images.githubusercontent.com/116129705/220796533-bf4b0067-251b-47ce-b3e3-0c0c807d269a.png)
 ![5](https://user-images.githubusercontent.com/116129705/220796534-c93fb480-80be-4f65-8117-09670d29a2d6.png)
