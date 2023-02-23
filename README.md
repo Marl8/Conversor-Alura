@@ -24,4 +24,4 @@ El mismo fue realizado con Java Swing.
 
 ![9](https://user-images.githubusercontent.com/116129705/220796542-9df67db3-45e9-4d9c-84c7-e7a51eeab9f6.png)
 
-![10](https://user-images.githubusercontent.com/116129705/220796848-857f61c9-76f0-49c6-a8ae-2940f9e1601d.png)
+![10](https://user-images.githubusercontent.com/116129705/220800192-dccccaf6-36de-4f87-9bca-4f80387ef468.png)
