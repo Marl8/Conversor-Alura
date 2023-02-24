@@ -9,7 +9,7 @@ public class Main {
         
         Principal principal = new Principal();
         principal.setVisible(true);
-        principal.setLocationRelativeTo(null);     
+        principal.setLocationRelativeTo(null); 
     }
     
 }
