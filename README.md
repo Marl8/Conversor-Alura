@@ -6,7 +6,8 @@ El proyecto se enmarca dentro de los Challenge programados para los cursos de Ba
 El mismo fue realizado con Java Swing.
 
 
-![1](https://user-images.githubusercontent.com/116129705/220796525-f26c4bfa-5785-47e3-8532-3f93df80060b.png)
+
+![1](https://user-images.githubusercontent.com/116129705/221059477-d7879f2f-b7ac-4913-b1ab-92266cb43f34.png)
 
 ![2](https://user-images.githubusercontent.com/116129705/220797464-9f73a34d-10bb-4a67-bd0a-1afe051e1a1e.png)
 
