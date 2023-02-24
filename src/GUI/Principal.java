@@ -43,7 +43,10 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("E:\\PROGRAMACION\\ONE ORACLE\\JAVA\\Challange JAVA\\Conversor de Monedas\\Convertor\\Imagenes\\conversor divisas.jpg")); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(51, 51, 255));
+
+        jLabel2.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel2.setIcon(new javax.swing.ImageIcon("E:\\PROGRAMACION\\ONE ORACLE\\JAVA\\Challange JAVA\\Convertor\\Imagenes\\conversor.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
